@@ -1,0 +1,28 @@
+/* Remove default list styling */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #444; /* Background color of the menu */
+}
+
+/* Style menu items */
+.menu li {
+    padding: 10px 20px;
+}
+
+/* Style menu links */
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 10px 20px;
+}
+
+/* Change background on hover */
+.menu li a:hover {
+    background-color: #666; /* Highlight color */
+    color: yellow;
+}
